@@ -6,27 +6,18 @@
  *
  * Return: Always 0 (Success)
 */
-
 int main(void)
 {
 	char ch = 'a';
-	char rf = 'f';
-	char df = 'r';
 
-	while (ch <= 'd')
+	while (ch <= 'z')
 	{
+		if (ch == 'e' || ch == 'q')
+		{
+			ch++;
+		}
 		putchar(ch);
 		ch++;
-	}
-	while (rf <= 'p')
-	{
-		putchar(rf);
-		rf++;
-	}
-	while (df <= 'z')
-	{
-		putchar(df);
-		df++;
 	}
 	putchar('\n');
 
