@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * Return: Always 0 (Success)
+ * print_numbers - a function that prints the numbers
 */
 void print_numbers(void)
 {
