@@ -2,6 +2,8 @@
 /**
  * _isdigit - Function that checks for a digit
  *
+ * @c: is variable type of integer
+ *
  * Return: 1 if c is a digit or 0 otherwise
 */
 int _isdigit(int c)
