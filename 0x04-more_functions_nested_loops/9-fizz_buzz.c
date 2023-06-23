@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * Return: Empty
+ * Return: Always 0 (Success)
 */
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -33,4 +33,6 @@ void main(void)
 		}
 	}
 	printf("\n");
+
+	return (0);
 }
