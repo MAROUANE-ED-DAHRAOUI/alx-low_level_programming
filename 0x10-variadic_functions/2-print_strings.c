@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_string - prints strings with separator
+ * print_strings - print strings
  * @separator: the string separator
  * @n: the number of arguments
  * @...: the strings to print
